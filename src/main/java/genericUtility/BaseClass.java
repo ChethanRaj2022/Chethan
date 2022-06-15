@@ -21,7 +21,7 @@ import com.crm.malifice.pomrepositoryutility.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-
+//baseclass is edited
 	public PropertyfileUtility filelib=new PropertyfileUtility();
 	public WebdriverUtility drivlib=new WebdriverUtility();
 
