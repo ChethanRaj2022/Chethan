@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Practice.ListenerImgClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Practice.SampTest">
+        <methods>
+          <include name="aa"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- Practice.SampTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
